@@ -9,21 +9,26 @@ This project delivers a functional prototype that automates candidate-internship
 ## 🏗️ Architecture
 
 ### Tech Stack
-- **Frontend**: React.js with modern hooks and real-time updates
-- **Backend**: Flask (Python) with RESTful APIs
+- **Frontend**: React.js with TypeScript, modern hooks and real-time updates
+- **Backend**: Flask (Python) with RESTful APIs and advanced services
 - **Database**: Firebase Firestore for real-time data storage
+- **Web Scraping**: BeautifulSoup, Requests with intelligent fallback mechanisms
 - **AI Services**: 
-  - Google Gemini API for CV parsing
-  - LlamaFactoryAI/cv-job-description-matching for intelligent matching
+  - Google Gemini API for CV parsing and content generation
+  - Advanced matching algorithms with success prediction
+  - Company data enrichment and sentiment analysis
 - **Authentication**: Firebase Auth
 
 ### Key Features
 - 🤖 AI-powered CV parsing and information extraction
-- 🎯 Intelligent candidate-opportunity matching
+- 🎯 Intelligent candidate-opportunity matching with detailed success prediction
 - 📊 Affirmative action and diversity prioritization
 - 🌐 Modern web interface for applicants and admins
 - 📈 Real-time analytics and reporting
 - 🔄 Manual correction and feedback loops
+- 🔍 Live web scraping from Internshala, Indeed and other job platforms
+- 🏢 Company data enrichment with ratings, reviews and internship insights
+- 🔗 Real application URLs for seamless application process
 
 ## 🛠️ Setup Instructions
 
